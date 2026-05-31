@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6c9eff"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#111827"/>
+  <g transform="translate(256,256)">
+    <!-- Sparkle/star shape -->
+    <path d="M0-60 L12-20 L52-32 L28 4 L64 36 L24 30 L0 64 L-24 30 L-64 36 L-28 4 L-52-32 L-12-20Z" fill="url(#g)"/>
+    <!-- Inner circle -->
+    <circle cx="0" cy="0" r="18" fill="#080b14"/>
+  </g>
+</svg>
